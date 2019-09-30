@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/39cb0b55b6.js"></script>
+        <link rel="stylesheet" href="css/home-style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <title>Weather</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <!-- <style>
+        *:not(path):not(g) {    color:                    hsla(210, 100%, 100%, 0.9) !important;    background:               hsla(210, 100%,  50%, 0.5) !important;    outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+    box-shadow: none !important;}
+    </style> -->
+    <body class="regular">
+        <div id="header">
+            <div class="half">
+                <div id="first">
+                    <img src="logo.png">
+                </div>
+                <div id="second">
+                    <input type="text" placeholder="Enter City Name.." id="text">
+                </div>
+            </div>
+            <div class="half" id="third">
+                <button id="button">Submit</button>
+            </div>
+        </div>
+        <!--  -->
+        <div class="section line">
+            <div class="info">
+                <p><i class="fas fa-map-marker"></i> <span class="grey" id="loc">Location</span></p>
+                <p class="temp-main semi" id="tempMain">28°</p>
+                <p class="active"><i class="fas fa-cloud"></i> <span id="weather">Weather</span></p>
+            </div>
+            <div class="image">
+                <div class="icon">
+                    <img src="009-foggy.svg">
+                </div>
+                <div class="actual-image">
+                    <img src="girl.png">
+                </div>
+            </div>    
+        </div>
+        <div class="section-main">
+            <div class="data">
+                <div><p class="grey">Pressure:</p></div>
+                <div class="semi nums"><p id="pressure">16 Hg</p></div>
+            </div>
+            <div class="data">
+                <div><p class="grey">Clouds:</p></div>
+                <div class="semi nums"><p id="clouds">16%</p></div>
+            </div>
+            <div class="data">
+                <div><p class="grey">Wind:</p></div>
+                <div class="semi nums"><p id="wind">1.2 km/hr</p></div>
+            </div>
+            <div class="data">
+                <div><p class="grey">Humidity:</p></div>
+                <div class="semi nums"><p id=humidity>16%</p></div>
+            </div>
+        </div>
+        <div class=section>
+            <div class="forecast">
+                <div><p class="grey">28/9</p></div>
+                <div><p class="grey double">28°</p></div>
+            </div>
+            <div class="forecast active">
+                <div><p id="date">28/9</p></div>
+                <div><p class="double" id="tempMain2">28°</p></div>
+            </div>
+            <div class="forecast">
+                <div><p class="grey">28/9</p></div>
+                <div><p class="grey double">28°</p></div>
+            </div>
+            <div class="forecast">
+                <div><p class="grey">28/9</p></div>
+                <div><p class="grey double">28°</p></div>
+            </div>
+            <div class="forecast">
+                <div><p class="grey">28/9</p></div>
+                <div><p class="grey double">28°</p></div>
+            </div>
+            <div class="detail">
+                <p class="grey">The given temperature is measured in °Celsius</p>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
